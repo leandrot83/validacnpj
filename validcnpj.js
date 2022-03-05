@@ -1,4 +1,4 @@
-export function cnpjValidation(value) {
+export function ValidCNPJ(value) {
   if (!value) return false
 
   // Recebe valor como string, número ou array com todos os dígitos
